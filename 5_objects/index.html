@@ -1,0 +1,42 @@
+<script>
+    let zoologico = [
+        {
+            nome_animal: "loboPidao",
+            cor: "preto",
+            peso: "500kg",
+            altura: "3 metros",
+            comprimento: "2.0 metros",
+            nadar: function(){console.log("nadou")},
+            pular: function(){console.log("pulou")},
+
+        },
+        {
+            nome_animal: "cobra",
+            cor: "preta",
+            peso: "50kg",
+            altura: "4 metros",
+            comprimento: "1.0 metros",
+            nadar: function(){console.log(" ela nadou")},
+            pular: function(){console.log(" ela pulou????????")},
+        },
+        {
+            nome_animal: "pereca",
+            cor: "rosa",
+            peso: "1kg",
+            altura: "1 metro",
+            comprimento: "1.0 metro",
+            nadar: function(){console.log(" olha nadou")},
+            pular: function (){console.log(" olha pulou")},
+        }
+    ];
+    zoologico.forEach(animal =>{
+        console.log(`nome: ${animal.nome_animal}`)
+        console.log(`cor: ${animal.cor}`)
+        console.log(`peso: ${animal.peso}`)
+        console.log(`altura: ${animal.altura}`)
+        console.log(`comprimento: ${animal.comprimento}`)
+        console.log(`nadar: ${animal.nadar()}`)
+        console.log(`pular: ${animal.pular()}`)
+    })
+
+</script>
